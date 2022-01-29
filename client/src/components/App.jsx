@@ -11,7 +11,7 @@ export default function App() {
     e.preventDefault();
 
     console.log('Submit Clicked');
-  }
+  };
 
   return (
     <div>
