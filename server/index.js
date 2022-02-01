@@ -1,14 +1,17 @@
 const path = require('path');
 const express = require('express');
+require('dotenv').config();
 const router = require('./routes.js');
 
 // Create server
 const app = express();
 
 // Set the port to listen on
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 
 app.use(express.json());
+
+// Serve Up Static Files
 app.use('/', express.static(path.join(__dirname, '..', 'client', 'dist')));
 
 app.use(router);
