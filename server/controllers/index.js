@@ -1,1 +1,1 @@
-exports.openPullRequests = require('./openPullRequests');
+exports.pullReqs = require('./pullReqs.js');
