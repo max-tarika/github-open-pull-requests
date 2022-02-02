@@ -106,3 +106,6 @@ typings/
 # bundle
 *bundle.js
 package-lock.json
+
+# DS Store
+*.DS_Store
