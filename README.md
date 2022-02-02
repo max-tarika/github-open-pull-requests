@@ -4,9 +4,12 @@
 
 This API is designed to return the open pull requests for a given repo and the amount of commits for each pull request.
 
-## Code Example
+## API Example
 
-Example API response using Postman:
+Example API response using Postman: GET /pullReqs?url=https://github.com/max-tarika/github-open-pull-requests
+
+
+
 
 
 Example API response using the application interface:
@@ -38,4 +41,4 @@ Example API response using the application interface:
    ```
 
 ## Tests
-To run the test suite, run this command on the command line: `npm test`
+To run the test suite, run `npm test` on the command line.
