@@ -7,8 +7,6 @@ const {
   testOnePullResponse,
   marriotCommitsResponse,
   ritzCommitsResponse,
-  testTwoPullResponse,
-  hiltonCommitsResponse,
 } = require('./mockData/mockData.js');
 
 const app = express();
