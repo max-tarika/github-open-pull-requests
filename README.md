@@ -8,11 +8,11 @@ This API is designed to return the open pull requests for a given repo and the a
 
 Example API response using Postman: GET /pullReqs?url=https://github.com/max-tarika/github-open-pull-requests
 
-
-
-
+![postman response](/images/postman_example.png)
 
 Example API response using the application interface:
+
+![client response](/images/client_example.png)
 
 ## Installation
 1. Clone the repo:
