@@ -42,4 +42,13 @@ describe('Pull Request API Function', () => {
     expect(actualResponse.statusCode).toBe(200);
     expect(actualResponse.text).toEqual(expectedResponse);
   });
+
+  test('Should respond to GET requests with an invalid URL with a 400 status code', async () => {
+    const response = await request(app)
+      .get('/pullReqs')
+      .query({ url: 'invalid url' });
+
+    expect(response.statusCode).toBe(400);
+    expect(response.text).toEqual('Invalid URL');
+  });
 });
