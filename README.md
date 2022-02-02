@@ -38,4 +38,4 @@ Example API response using the application interface:
    ```
 
 ## Tests
-To run the test suite, run this command on the command line: `npm test`
+To run the test suite, run `npm test` on the command line.
