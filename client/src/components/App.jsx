@@ -30,7 +30,7 @@ export default function App() {
         <button type="submit" id="repo-url-submit">Submit</button>
       </form>
       <div id="pull-request-feed">
-        <h4>Results: </h4>
+        <h3>Results: </h3>
         {pullReqData.map((pr) => (
           <div className="pr-wrapper">
             <div className="pr-title">
