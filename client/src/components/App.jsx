@@ -16,7 +16,13 @@ export default function App() {
       .then(({ data }) => {
         setPullReqData(data);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        if (err.response.data === 'Invalid URL') {
+          alert('Please submit a valid GitHub repo URL');
+        } else {
+          console.error(err);
+        }
+      });
   };
 
   return (
