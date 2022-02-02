@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>GitHub Repo Open Pull Requests</h1>
+      <h1>GitHub Repo Open Pull Requests Example One Commit 2</h1>
       <form id="repo-url-form" onSubmit={handleSubmit}>
         <label htmlFor="repo-url-input">
           Enter Repo URL Here:
